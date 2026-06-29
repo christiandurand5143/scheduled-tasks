@@ -9,7 +9,7 @@ list = []
 today = datetime.now()
 today_tuple = (today.month, today.day)
 
-data = pd.read_csv("Dia32/birthdays.csv")
+data = pd.read_csv("birthdays.csv")
 #print(birthdays_csv)
 
 
