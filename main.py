@@ -24,7 +24,7 @@ name_selected = nombre["name"].item()
 #if (today_month, today_day) in birthdays_dict:
 if today_tuple in birthdays_dict.keys():
     birthdays_person = birthdays_dict[today_tuple]
-    file_path = f"Dia32/letter_templates/letter_{random.randint(1,3)}.txt"
+    file_path = f"letter_templates/letter_{random.randint(1,3)}.txt"
     with open(file_path) as letter_file:
        contents = letter_file.read()  
        contents = contents.replace("[NAME]", name_selected)
