@@ -2,6 +2,7 @@ import random
 import pandas as pd
 from datetime import datetime 
 import smtplib
+import os
 
 list = []
 # 2. Check if today matches a birthday in the birthdays.csv
